@@ -1,0 +1,175 @@
+.yourPerfectFit {
+  width: 149px;
+  height: 24px;
+  position: relative;
+  line-height: 150%;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.weBelieveIn {
+  margin: 0;
+  height: 385px;
+  width: 562px;
+  position: relative;
+  font-size: inherit;
+  line-height: 125%;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.exploreCallNodes {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-2xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--headings-heading-1-size);
+  font-family: var(--headings-heading-1);
+}
+.choosingTheRight {
+  width: 546px;
+  height: 96px;
+  position: relative;
+  line-height: 150%;
+  color: var(--black-3);
+  display: inline-block;
+  max-width: 100%;
+}
+.loremFillerText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+  max-width: 100%;
+}
+.textDarkType {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-11xs);
+  box-sizing: border-box;
+  min-width: 562px;
+  max-width: 100%;
+}
+.rectangle {
+  height: 593px;
+  width: 650px;
+  position: relative;
+  background-color: var(--white-1);
+  display: none;
+  max-width: 100%;
+}
+.imageIcon {
+  height: 570px;
+  width: 570px;
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  z-index: 1;
+}
+.frame1 {
+  flex: 1;
+  background-color: var(--white-1);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-2xs) var(--padding-2xs) var(--padding-xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame {
+  margin-bottom: -1px;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.continueButtonNode {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px;
+  box-sizing: border-box;
+  min-width: 422px;
+  max-width: 100%;
+}
+.verticalAlignParent {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0px var(--padding-37xl);
+  box-sizing: border-box;
+  gap: var(--gap-97xl);
+  max-width: 100%;
+}
+.ellipseShapeSymbol {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-93xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--body-regular-size);
+  color: var(--color-gray-100);
+  font-family: var(--body-regular);
+}
+
+@media screen and (max-width: 1125px) {
+  .textDarkType {
+    flex: 1;
+  }
+
+  .verticalAlignParent {
+    flex-wrap: wrap;
+    gap: var(--gap-39xl);
+    padding-left: var(--padding-9xl);
+    padding-right: var(--padding-9xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .weBelieveIn {
+    font-size: var(--font-size-7xl);
+    line-height: 33px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .weBelieveIn {
+    font-size: var(--font-size-16xl);
+    line-height: 44px;
+  }
+
+  .textDarkType {
+    min-width: 100%;
+  }
+
+  .continueButtonNode {
+    min-width: 100%;
+  }
+
+  .verticalAlignParent {
+    gap: var(--gap-10xl);
+  }
+
+  .ellipseShapeSymbol {
+    padding-bottom: var(--padding-54xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,170 @@
+.rectangle {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(0, 0, 0, 0.17),
+    rgba(0, 0, 0, 0)
+  );
+}
+.ellipse {
+  position: absolute;
+  top: 1683px;
+  left: 712px;
+  border-radius: 50%;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(85, 85, 85, 0.7),
+    rgba(81, 81, 81, 0.7)
+  );
+  filter: blur(40.38px);
+  width: 396px;
+  height: 28px;
+}
+.imageIcon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.ellipseParent {
+  height: 1739px;
+  width: 1739px;
+  position: absolute;
+  margin: 0 !important;
+  top: -456px;
+  left: -634px;
+}
+.whetherYoureSeeking {
+  margin: 0;
+  width: 644px;
+  height: 315px;
+  position: relative;
+  font-size: inherit;
+  line-height: 125%;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 2;
+}
+.whetherYoureSeekingClassicWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-height: 581px;
+  max-width: 100%;
+}
+.discoverOurCurrent {
+  align-self: stretch;
+  height: 96px;
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+}
+.signIn {
+  height: 24px;
+  width: 82px;
+  position: relative;
+  font-size: var(--body-regular-size);
+  line-height: 150%;
+  font-weight: 600;
+  font-family: var(--body-regular);
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+}
+.typeprimaryColorblackSiz {
+  background-color: var(--white-7);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-11xl);
+  white-space: nowrap;
+}
+.autoLayoutHorizontal {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.autoLayoutVertical {
+  width: 408px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+  z-index: 2;
+  margin-left: -408px;
+  font-size: var(--body-regular-size);
+  font-family: var(--body-regular);
+}
+.frame {
+  background-color: var(--color-brown);
+  border-bottom: 1px solid var(--white-4);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-163xl) var(--padding-38xl) var(--padding-163xl)
+    var(--padding-720xl);
+  position: relative;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--headings-display-size);
+  color: var(--white-7);
+  font-family: var(--headings-heading-1);
+}
+
+@media screen and (max-width: 1050px) {
+  .whetherYoureSeeking {
+    font-size: var(--font-size-11xl);
+    line-height: 37px;
+  }
+
+  .autoLayoutVertical {
+    gap: var(--gap-base);
+  }
+
+  .frame {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .whetherYoureSeeking {
+    font-size: var(--font-size-21xl);
+    line-height: 50px;
+  }
+
+  .frame {
+    padding: var(--padding-58xl) var(--padding-9xl) var(--padding-58xl)
+      var(--padding-350xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frame {
+    padding-top: var(--padding-99xl);
+    padding-bottom: var(--padding-99xl);
+    box-sizing: border-box;
+  }
+}

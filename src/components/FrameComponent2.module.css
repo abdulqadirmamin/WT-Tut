@@ -1,0 +1,285 @@
+.frameIcon {
+  width: 29px;
+  height: 29px;
+  position: relative;
+  object-fit: cover;
+}
+.whyChooseMarkly {
+  margin: 0;
+  align-self: stretch;
+  height: 55px;
+  position: relative;
+  font-size: inherit;
+  line-height: 125%;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+}
+.frameParent {
+  width: 586px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.autoLayoutVerticalInner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.discoverOurCurrent {
+  height: 54px;
+  width: 792px;
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.groupIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  transform: rotate(-180deg);
+}
+.autoLayoutHorizontal3 {
+  height: 40px;
+  width: 40px;
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(180deg);
+}
+.groupIcon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.autoLayoutHorizontal4 {
+  height: 40px;
+  width: 40px;
+  border: 1px solid var(--color-lightgray-200);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.autoLayoutHorizontal2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.autoLayoutHorizontal1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.autoLayoutHorizontal {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.rectangle {
+  align-self: stretch;
+  width: 427px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-100);
+  display: none;
+  max-width: 100%;
+}
+.colorblackType1Icon {
+  width: 194px;
+  height: 196px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.loremIpsumThe {
+  align-self: stretch;
+  height: 25px;
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 125%;
+  font-weight: 500;
+  display: inline-block;
+}
+.loremIpsumHasContainer {
+  align-self: stretch;
+  height: 72px;
+  position: relative;
+  font-size: var(--body-regular-size);
+  line-height: 150%;
+  color: var(--black-3);
+  display: inline-block;
+}
+.autoLayoutVertical3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.autoLayoutVertical2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+}
+.autoLayoutVertical1 {
+  height: 470px;
+  flex: 1;
+  border: 1px solid var(--color-lightgray-200);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-5xl) var(--padding-6xl) var(--padding-5xl)
+    var(--padding-4xl);
+  max-width: 100%;
+}
+.card1ColorlineOnly {
+  width: 427px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.autoLayoutHorizontal5 {
+  width: 1329px;
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+  font-size: var(--headings-heading-3-size);
+}
+.autoLayoutHorizontalParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+  font-size: var(--body-regular2-size);
+  font-family: var(--body-regular);
+}
+.autoLayoutVertical {
+  flex: 1;
+  background-color: var(--color-whitesmoke-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-89xl) var(--padding-36xl);
+  box-sizing: border-box;
+  gap: var(--gap-25xl);
+  max-width: 100%;
+}
+.autoLayoutVerticalWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-12xs) var(--padding-68xl) 0px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--headings-heading-1-size);
+  color: var(--color-gray-100);
+  font-family: var(--headings-heading-1);
+}
+
+@media screen and (max-width: 1050px) {
+  .whyChooseMarkly {
+    font-size: var(--font-size-7xl);
+    line-height: 33px;
+  }
+
+  .loremIpsumThe {
+    font-size: var(--body-regular-size);
+    line-height: 20px;
+  }
+
+  .autoLayoutVertical {
+    padding-top: var(--padding-26xl);
+    padding-bottom: var(--padding-26xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .whyChooseMarkly {
+    font-size: var(--font-size-16xl);
+    line-height: 44px;
+  }
+
+  .autoLayoutVertical1 {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .autoLayoutHorizontalParent {
+    gap: var(--gap-xl);
+  }
+
+  .autoLayoutVertical {
+    gap: var(--gap-3xl);
+    padding-left: var(--padding-8xl);
+    padding-right: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+
+  .autoLayoutVerticalWrapper {
+    padding-bottom: var(--padding-18xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .autoLayoutHorizontal {
+    flex-wrap: wrap;
+  }
+
+  .autoLayoutVertical {
+    padding-top: var(--padding-51xl);
+    padding-bottom: var(--padding-51xl);
+    box-sizing: border-box;
+  }
+
+  .autoLayoutVerticalWrapper {
+    padding-bottom: var(--padding-38xl);
+    box-sizing: border-box;
+  }
+}

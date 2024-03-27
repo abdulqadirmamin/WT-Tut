@@ -1,0 +1,161 @@
+.frame1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.frame {
+  height: 593px;
+  flex: 1;
+  position: relative;
+  background-image: url("/public/frame1@3x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-width: 422px;
+  max-width: 100%;
+}
+.adventureCollectionIs {
+  margin: 0;
+  width: 566px;
+  height: 275px;
+  position: relative;
+  font-size: inherit;
+  line-height: 125%;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.atMarklyWe {
+  align-self: stretch;
+  height: 72px;
+  position: relative;
+  font-size: var(--body-regular-size);
+  line-height: 150%;
+  font-family: var(--body-regular);
+  color: var(--black-3);
+  display: inline-block;
+}
+.autoLayoutVertical2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.autoLayoutVertical1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.signIn {
+  height: 24px;
+  width: 87px;
+  position: relative;
+  font-size: var(--body-regular-size);
+  line-height: 150%;
+  font-weight: 600;
+  font-family: var(--body-regular);
+  color: var(--white-7);
+  text-align: left;
+  display: inline-block;
+}
+.typeprimaryColorblackSiz {
+  cursor: pointer;
+  border: none;
+  padding: var(--padding-xs) var(--padding-11xl);
+  background-color: var(--color-gray-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.typeprimaryColorblackSiz:hover {
+  background-color: var(--color-darkslategray-100);
+}
+.autoLayoutVertical {
+  width: 617px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0px;
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  min-width: 617px;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1368px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px var(--padding-xl) var(--padding-93xl);
+  box-sizing: border-box;
+  gap: var(--gap-42xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--headings-heading-1-size);
+  color: var(--color-gray-100);
+  font-family: var(--headings-heading-1);
+}
+
+@media screen and (max-width: 1050px) {
+  .adventureCollectionIs {
+    font-size: var(--font-size-7xl);
+    line-height: 33px;
+  }
+
+  .frameParent {
+    gap: var(--gap-mini);
+  }
+}
+@media screen and (max-width: 750px) {
+  .frame {
+    min-width: 100%;
+  }
+
+  .adventureCollectionIs {
+    font-size: var(--font-size-16xl);
+    line-height: 44px;
+  }
+
+  .autoLayoutVertical2 {
+    gap: var(--gap-base);
+  }
+
+  .autoLayoutVertical {
+    gap: var(--gap-xl);
+    min-width: 100%;
+  }
+
+  .frameParent {
+    gap: var(--gap-11xl);
+    padding-bottom: var(--padding-54xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .autoLayoutVertical2 {
+    align-self: stretch;
+    width: auto;
+  }
+
+  .autoLayoutVertical {
+    flex: 1;
+  }
+
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}

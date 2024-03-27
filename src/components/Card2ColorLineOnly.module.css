@@ -1,0 +1,92 @@
+.rectangle {
+  align-self: stretch;
+  width: 427px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-100);
+  display: none;
+  max-width: 100%;
+}
+.colorblackType2Icon {
+  width: 187px;
+  height: 194px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.loremIpsumThe {
+  align-self: stretch;
+  height: 25px;
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 125%;
+  font-weight: 500;
+  display: inline-block;
+}
+.loremIpsumHas {
+  align-self: stretch;
+  height: 72px;
+  position: relative;
+  font-size: var(--body-regular-size);
+  line-height: 150%;
+  color: var(--black-3);
+  display: inline-block;
+}
+.autoLayoutVertical2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.autoLayoutVertical1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+}
+.autoLayoutVertical {
+  height: 470px;
+  flex: 1;
+  border: 1px solid var(--color-lightgray-200);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-5xl) var(--padding-6xl) var(--padding-5xl)
+    var(--padding-4xl);
+  max-width: 100%;
+}
+.card2ColorlineOnly {
+  width: 427px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--headings-heading-3-size);
+  color: var(--color-gray-100);
+  font-family: var(--body-regular);
+}
+
+@media screen and (max-width: 1050px) {
+  .loremIpsumThe {
+    font-size: var(--body-regular-size);
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .autoLayoutVertical {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

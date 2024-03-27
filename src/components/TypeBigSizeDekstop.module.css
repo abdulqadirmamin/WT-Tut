@@ -1,0 +1,74 @@
+.groupFrameEllipse {
+  align-self: stretch;
+  height: 410px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.header {
+  margin: 0;
+  align-self: stretch;
+  height: 31px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 130%;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+}
+.loremIpsumHas {
+  align-self: stretch;
+  height: 81px;
+  position: relative;
+  font-size: var(--body-regular2-size);
+  line-height: 150%;
+  display: inline-block;
+}
+.autoLayoutVertical1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.readMore {
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+  font-size: var(--body-regular-size);
+  text-decoration: underline;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+}
+.autoLayoutVertical {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.typebigSizedekstop {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--headings-heading-5-size);
+  color: var(--color-gray-100);
+  font-family: var(--body-regular);
+}
+
+@media screen and (max-width: 1050px) {
+  .header {
+    font-size: var(--font-size-lgi);
+    line-height: 25px;
+  }
+}
